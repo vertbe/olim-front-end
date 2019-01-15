@@ -242,7 +242,7 @@ nav {
 }
 
 .header-title h1 {
-    color: #C29032;
+    color: white;
     font-size: 2.5em;
     width: auto;
     align-self: center;
@@ -251,7 +251,7 @@ nav {
 .header-title h3 {
     align-self: center;
     width: auto;
-    color: #333333;
+    color: gold;
     font-size: 1.3em;
 }
 
