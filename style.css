@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
 
+
+
+.boxtextupper > p {
+    color: darkgoldenrod;
+
+}
+
+.boxtextupper > h3 {
+    color: white;
+}
+
+.boxtext > h3 {
+    color: white;
+}
+
+.boxtext {
+    margin-top: 25px;
+}
+
+.boxtext > p {
+    color: darkgoldenrod;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +31,7 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: #333333;
+
 }
 
 .subtitle {
@@ -47,6 +71,8 @@ main {
     flex-direction: column;
     align-self: center;
 }
+
+ 
 
 .mt0 {
     margin-top: 0;
@@ -298,6 +324,7 @@ footer form {
 .footer-contact-info {
     background-color: #C29032;
     height: 245px;
+
 }
 
 .footer-contact-info a {
@@ -464,31 +491,88 @@ input[type=checkbox]:checked + label:before {
     position: relative;
     width: auto;
     margin: auto;
+
 }
 
 .content-box-row {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url(img/mediaszolgalat.jpg);
+
 }
 
-.content-box-img {
+.content-box-img1 {
     border: 1px solid #333333;
     width: 450px;
     height: 160px;
     padding: 30px;
     top: auto;
     left: auto;
-    background-image: url(img/mediaszolgalat.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
     position: relative;
+    background-image: url(img/mediaszolgalat.jpg);
+
 
 
 }
+
+.content-box-img2 {
+    border: 1px solid #333333;
+    width: 450px;
+    height: 160px;
+    padding: 30px;
+    top: auto;
+    left: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(img/artrent.jpeg);
+
+
+}
+
+
+
+.content-box-img3 {
+    border: 1px solid #333333;
+    width: 450px;
+    height: 160px;
+    padding: 30px;
+    top: auto;
+    left: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(img/carrent.jpeg);
+    background-position: top;
+
+}
+
+
+.content-box-img4 {
+    border: 1px solid #333333;
+    width: 450px;
+    height: 160px;
+    padding: 30px;
+    top: auto;
+    left: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(img/brooklynbarber.jpeg);
+    background-position: top;
+
+
+
+}
+
+
+
 
 #boximage {
     position: absolute;
@@ -512,7 +596,7 @@ input[type=checkbox]:checked + label:before {
 
 .content-box-counterbox {
     border: 1px solid #333333;
-    background-color: #191919;
+    background-color: palegoldenrod;
     width: auto;
     margin: auto;
     height: auto;
@@ -556,11 +640,11 @@ input[type=checkbox]:checked + label:before {
 
 .counter-title {
     font-size: 0.5em;
-    color: #997228;
+    color: dimgray;
 }
 
 .number {
-    color: #fff;
+    color: black;
 }
 
 .choose-wrapper {
@@ -668,6 +752,11 @@ input[type=checkbox]:checked + label:before {
     -ms-transform: none;
 } */
 
+.logo {
+    height: 100px;
+    width: 500px;
+}
+
 .news-wrapper {
     width: auto;
     margin: auto;
@@ -695,10 +784,24 @@ input[type=checkbox]:checked + label:before {
     align-self: center;
 }
 
-.news-img {
+.news-img1 {
     border: 1px solid #333333;
     width: 50%;
+    background-image: url(img/environment.jpg);
+    background-position: left;
 }
+
+.news-img2 {
+    border: 1px solid #333333;
+    width: 50%;
+    background-image: url(img/creativeteam.jpg);
+    background-position: center;
+    background-size: 520px 260px;
+    background-repeat: no-repeat;
+
+}
+
+
 
 .news-content {
     position: relative;

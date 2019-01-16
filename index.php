@@ -9,26 +9,35 @@
     <div class="content-box">
         <div id="vueCounter" class="branches-wrapper">
             <div class="content-box-row">
-                <div class="content-box-img">
-                    <h3 v-on:click="count">Médiaszolgálat</h3>
-                    <p>Adáslebonyolítás, Makeup, Művészeti terv</p>
-                   
+                <div class="content-box-img1">
+                    <div class="boxtextupper">
+                        <h3 v-on:click="count">Médiaszolgálat</h3>
+                        <p>Adáslebonyolítás, Makeup, Művészeti terv</p>
+                    </div>
+
+
                 </div>
 
-                <div class="content-box-img">
-                    <h3>Art-rent</h3>
-                    <p>Díszlet, kellék</p>
+                <div class="content-box-img2">
+                    <div class="boxtextupper">
+                        <h3>Art-rent</h3>
+                        <p>Díszlet, kellék</p>
+                    </div>
                 </div>
             </div>
-         
+
             <div class="content-box-row">
-                <div class="content-box-img down">
-                    <h3>E-rent Autókölcsönző</h3>
-                    <p>Béreljen és parkoljon díjmentesen</p>
+                <div class="content-box-img3">
+                    <div class="boxtext">
+                        <h3>E-rent Autókölcsönző</h3>
+                        <p>Béreljen és parkoljon díjmentesen</p>
+                    </div>
                 </div>
-                <div class="content-box-img down">
-                    <h3>Brooklyn Barber</h3>
-                    <p></p>
+                <div class="content-box-img4">
+                    <div class="boxtext">
+                        <h3>Brooklyn Barber</h3>
+                        <p>Fodrászat, szépségszalon</p>
+                    </div>
                 </div>
             </div>
             <div class="content-box-counterbox">
@@ -144,8 +153,8 @@
     <div class="news-wrapper">
         <div class="news-row">
             <div class="news-box">
-                <div class="news-img">
-                    <img src="" alt="">
+                <div class="news-img1">
+                     
                 </div>
                 <div class="news-content">
                     <div class="news-date">
@@ -165,8 +174,7 @@
                 </div>
             </div>
             <div class="news-box">
-                <div class="news-img">
-                    <img src="" alt="">
+                <div class="news-img2">
                 </div>
                 <div class="news-content">
                     <div class="news-date">
