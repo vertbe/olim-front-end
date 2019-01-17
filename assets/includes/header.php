@@ -13,6 +13,9 @@
 <!-- VUE.js-->
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
+<!-- mobile nav-->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
+
   <title><?php echo $page_title; ?> | Olim Central ZRT.</title>
   <meta name="author" content="">
   <meta name="description" content="">
@@ -24,6 +27,29 @@
 <body>
     <header>
     <div class="header-wrapper">
+        <div id="luxbar" class="luxbar-fixed">
+            <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+            <div class="luxbar-menu luxbar-menu-right luxbar-menu-dark">
+                <ul class="luxbar-navigation">
+                    <li class="luxbar-header">
+                        <div class="header-contact-left">
+                            <a href="tel:+3616999124"><i class="fas fa-phone"></i></a>
+                            <a href="mailto:info@olim.hu"><i class="fas fa-envelope"></i></a>
+                        </div>
+                        <div class="header-contact-right">
+                            <a href="https://www.facebook.com/olimcentral/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+                        id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+                    </li>
+                    <li class="luxbar-item"><a href="#Rólunk">Rólunk</a></li>
+                    <li class="luxbar-item"><a href="#Üzletágaink">Üzletágaink</a></li>
+                    <li class="luxbar-item"><a href="#Hírek">Hírek</a></li>
+                    <li class="luxbar-item"><a href="#Kapcsolat">Kapcsolat</a></li>
+                </ul>
+            </div>
+        </div>
         <div class="header-contact">
             <div class="header-contact-left">
                 <a href="tel:+3616999124"><i class="fas fa-phone"></i></a><a href="tel:++3616999124">+36-1-699-9124</a>

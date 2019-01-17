@@ -8,11 +8,40 @@
     </div>
     <div class="content-box">
         <div id="vueCounter" class="branches-wrapper">
+            <div class="content-box-counterbox">
+                <div class="counter">
+                    <i class="fas fa-bolt coutner-icon-out"></i>
+                    <div class="counter-inner-wrapper">
+                        <div id="chargingstation" class="number"><i class="fas fa-bolt coutner-icon-in"></i> {{ display.chargingstation }} </div>
+                        <div class="counter-title">Töltőállomás</div>
+                    </div>
+                </div>
+                <div class="counter">
+                    <i class="fas fa-desktop coutner-icon-out"></i>
+                    <div class="counter-inner-wrapper">
+                        <div id="broadcasting" class="number"><i class="fas fa-desktop coutner-icon-in"></i> {{ display.broadcasting }} </div>
+                        <div class="counter-title">Adáslebonyolítás</div>
+                    </div>
+                </div>
+                <div class="counter">
+                    <i class="far fa-smile coutner-icon-out"></i>
+                    <div class="counter-inner-wrapper">
+                        <div id="happyClient" class="number"><i class="far fa-smile coutner-icon-in"></i> {{ display.happyClient }} </div>
+                        <div class="counter-title">Boldog ügyfél</div>
+                    </div>
+                </div>
+                <div class="counter counter-last ">
+                    <i class="fas fa-award coutner-icon-out"></i>
+                    <div class="counter-inner-wrapper">
+                        <div id="artAccessories" class="number"><i class="fas fa-award coutner-icon-in"></i> {{ display.artAccessories }} </div>
+                        <div class="counter-title">Art-kellék</div>
+                    </div>
+                </div>
+            </div>
             <div class="content-box-row">
                 <div class="content-box-img">
                     <h3 v-on:click="count">Médiaszolgálat</h3>
-                    <p>Adáslebonyolítás, Makeup, Művészeti terv</p>
-                   
+                    <p>Adáslebonyolítás, Makeup, Művészeti terv</p>   
                 </div>
 
                 <div class="content-box-img">
@@ -20,7 +49,6 @@
                     <p>Díszlet, kellék</p>
                 </div>
             </div>
-         
             <div class="content-box-row">
                 <div class="content-box-img down">
                     <h3>E-rent Autókölcsönző</h3>
@@ -29,36 +57,6 @@
                 <div class="content-box-img down">
                     <h3>Brooklyn Barber</h3>
                     <p></p>
-                </div>
-            </div>
-            <div class="content-box-counterbox">
-                <div class="counter">
-                    <i class="fas fa-bolt"></i>
-                    <div class="counter-inner-wrapper">
-                        <div id="chargingstation" class="number"> {{ display.chargingstation }} </div>
-                        <div class="counter-title">Töltőállomás</div>
-                    </div>
-                </div>
-                <div class="counter">
-                    <i class="fas fa-desktop"></i>
-                    <div class="counter-inner-wrapper">
-                        <div id="broadcasting" class="number"> {{ display.broadcasting }} </div>
-                        <div class="counter-title">Adáslebonyolítás</div>
-                    </div>
-                </div>
-                <div class="counter">
-                    <i class="far fa-smile"></i>
-                    <div class="counter-inner-wrapper">
-                        <div id="happyClient" class="number"> {{ display.happyClient }} </div>
-                        <div class="counter-title">Boldog ügyfél</div>
-                    </div>
-                </div>
-                <div class="counter counter-last">
-                    <i class="fas fa-award"></i>
-                    <div class="counter-inner-wrapper">
-                        <div id="artAccessories" class="number"> {{ display.artAccessories }} </div>
-                        <div class="counter-title">Art-kellék</div>
-                    </div>
                 </div>
             </div>
         </div>
