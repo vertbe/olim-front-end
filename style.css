@@ -322,8 +322,9 @@ footer form {
 }
 
 .footer-contact-info {
-    background-color: #C29032;
+    background-color: white;
     height: 245px;
+    
 
 }
 
@@ -340,7 +341,6 @@ footer form {
 
 .footer-contact-info-sub {
     margin-left: 40px;
-    padding-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -354,6 +354,8 @@ footer form {
     font-size: 1.8em;
     color: #fff;
 }
+
+ 
 
 .form input,
 .form textarea {
@@ -596,7 +598,8 @@ input[type=checkbox]:checked + label:before {
 
 .content-box-counterbox {
     border: 1px solid #333333;
-    background-color: palegoldenrod;
+    background-color: black;
+    opacity: 0.6;
     width: auto;
     margin: auto;
     height: auto;
@@ -644,7 +647,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .number {
-    color: black;
+    color: darkgoldenrod;
 }
 
 .choose-wrapper {
@@ -927,3 +930,30 @@ input[type=checkbox]:checked + label:before {
     color: #fff;
     transition: all .2s;
 }
+
+
+#newsbox1 {
+    padding: 50px;
+    
+}
+
+
+#newsbox2   {
+    padding: 50px;
+}
+
+#newsbox3    {
+    padding: 50px;
+    margin-bottom: 300px;
+}
+ 
+
+.newsboxtext1   {
+    margin-left: 25px;
+}
+
+.newsboximage  {
+    float: left;
+   padding: 25px;
+}
+ 

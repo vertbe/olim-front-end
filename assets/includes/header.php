@@ -40,10 +40,10 @@
            </div>
             <div class="nav-menu">
                 <ul id="header">
-                    <li class="li"><a href="index.php" class="btn active-nav-menu" ><a href="#Rólunk">Rólunk</a></a></li>
-                    <li class="li"><a href="uzletagaink.php" class="btn"><a href="#Üzletágaink">Üzletágaink</a></a></li>
-                    <li class="li"><a href="hirek.php" class="btn"><a href="#Hírek">Hírek</a></a></li>
-                    <li class="li"><a href="kapcsolat.php" class="btn"><a href="#Kapcsolat">Kapcsolat</a></a></li>
+                    <li class="li"><a href="index.php" class="btn active-nav-menu" ><a href="https://olim.hu/hu/?option=com_content&view=article&id=49">Rólunk</a></a></li>
+                    <li class="li"><a href="#Üzletágaink">Üzletágaink</a></li>
+                    <li class="li"><a href="hirek.php#Hírek" class="btn">Hírek</a></li>
+                    <li class="li"><a href="#kapcsolat.php" class="btn"><a href="#Kapcsolat">Kapcsolat</a></a></li>
                 </ul>
             </div>
         </nav>

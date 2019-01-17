@@ -1,20 +1,339 @@
-<?php $page_title = "Hírek"; include('assets/includes/header.php'); ?>
-<div class="container">
-    <div class="subtitle">
-        <h2>Én vagyok a Hírek alolodal</h2>
-        <div></div>
+<?php $page_title = "Hírek"; ?>
+
+<!doctype HTML>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- VUE.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+    <title>
+        <?php echo $page_title; ?> | Olim Central ZRT.</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="./style.css" rel="stylesheet">
+    <link href="./glider.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="header-contact">
+                <div class="header-contact-left">
+                    <a href="tel:+3616999124"><i class="fas fa-phone"></i></a><a href="tel:++3616999124">+36-1-699-9124</a>
+                    <a href="mailto:info@olim.hu"><i class="fas fa-envelope"></i></a><a href="mailto:info@olim.hu">info@olim.hu</a>
+                </div>
+                <div class="header-contact-right">
+                    <a href="https://www.facebook.com/olimcentral/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <nav class="bg-header">
+                <div class="nav-logo">
+                    <a href="index.php"><img class="nav-img" src="assets/images/logo-main.png" alt="Olim-logo"></a>
+                </div>
+                <div class="nav-menu">
+                    <ul id="header">
+                        <li class="li"><a href="index.php" class="btn active-nav-menu"><a href="https://olim.hu/hu/?option=com_content&view=article&id=49">Rólunk</a></a>
+                        </li>
+                        <li class="li"><a href="uzletagaink.php" class="btn"><a href="Üzletágaink">Üzletágaink</a></a>
+                        </li>
+                        <li class="li"><a href="hirek.php" class="btn"><a href="hirek.php">Hírek</a></a>
+                        </li>
+                        <li class="li"><a href="index.php#Kapcsolat" class="btn">Kapcsolat</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-title bg-header">
+                <h1>Olim Central Zrt.</h1>
+                <h3>Kreatív szolgáltató</h3>
+            </div>
+
+        </div>
+    </header>
+
+
+
+    <div id="Hírek">
+        <div id="legfrissebbhireink">
+            <div class="subtitle">
+                <h2>Legfrissebb híreink</h2>
+                <div></div>
+            </div>
+        </div>
     </div>
-    <div class="subtitle">
-        <h2>Miért válasszon minket?</h2>
-        <div></div>
+    <div class="news-wrapper">
+        <div class="news-row">
+            <div class="news-box">
+                <div class="news-img1">
+
+                </div>
+                <div class="news-content">
+                    <div class="news-date">
+                        2018.06.21
+                    </div>
+                    <div class="news-title">
+                        <h3>Kényelem, biztonság és környezettudatosség!</h3>
+                    </div>
+                    <div class="news-taster">
+                        E-RENT autókölcsönző szolgáltatásunkkal a tiszta, fenntartható és gazdaságos közlekedés mellett állunk.
+                    </div>
+                    <div class="news-forward">
+                        <a href="#newsbox1">
+                            Tovább<i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="news-box">
+                <div class="news-img2">
+                </div>
+                <div class="news-content">
+                    <div class="news-date">
+                        2018.05.25
+                    </div>
+                    <div class="news-title">
+                        <h3>Nincs lehetetlen! Egy kreatív csapat mindent megold!</h3>
+                    </div>
+                    <div class="news-taster">
+                        Egy jó műsor elkészítésének titka egy jól megválasztott csapat. Több éves műsorgyártás, make up, stúdiótechnika...
+                    </div>
+                    <div class="news-forward">
+                        <a href="#newsbox2">
+                            Tovább<i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="news-box">
+                <div class="news-img2">
+                </div>
+                <div class="news-content">
+                    <div class="news-date">
+                        2018.05.25
+                    </div>
+                    <div class="news-title">
+                        <h3>Nincs lehetetlen! Egy kreatív csapat mindent megold!</h3>
+                    </div>
+                    <div class="news-taster">
+                        Egy jó műsor elkészítésének titka egy jól megválasztott csapat. Több éves műsorgyártás, make up, stúdiótechnika...
+                    </div>
+                    <div class="news-forward">
+                        <a href="#newsbox3">
+                            Tovább<i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="news-row">
+            <a href="hirek.php">
+                <div class="news-button-wrapper">
+                    <button>
+                        Korábbi híreink<i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+            </a>
+        </div>
     </div>
-    <div class="subtitle">
-        <h2>Referenciáink</h2>
-        <div></div>
+
+    <br>
+
+    <br>
+
+    <div id="newsbox1">
+
+
+
+        <h2><strong>Kényelem, biztonság és környezettudatosság!</strong></h2>
+
+        <br>
+
+        <p><em>E-RENT autókölcsönző szolgáltatásunkkal a tiszta, fenntartható és gazdaságos közlekedés mellett állunk.</em></p>
+
+        <br>
+
+        <br>
+
+        <br>
+
+
+        <p><img alt="environment" src="img/environment2.jpeg" style="height:514px; margin:8px; width:736px" align="left" class="newsboximage"/></p>
+
+
+
+        <br>
+
+        <br>
+ 
+           
+            <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel neque sagittis, auctor ligula quis, feugiat metus. Suspendisse blandit lacus eget velit pulvinar, et convallis quam ullamcorper. In tempus rutrum consectetur. Etiam tempus id enim ut iaculis. Nunc hendrerit libero eu urna aliquet cursus. Maecenas et accumsan velit. Nunc dui turpis, ullamcorper sit amet lorem ac, feugiat ullamcorper ligula. Praesent aliquam leo id lectus tempor efficitur. Suspendisse fermentum augue ut odio consectetur, eu convallis odio mattis. Nullam gravida semper finibus. Aliquam diam ligula, luctus a molestie in, placerat in purus. Proin blandit ipsum eu nunc faucibus lacinia. Donec eu luctus orci, id semper magna. Pellentesque ac nibh faucibus est accumsan rhoncus. Nulla tempor quam orci, condimentum blandit mauris consectetur eget. Curabitur dignissim massa urna, aliquet rutrum urna suscipit vitae.</em> </p>
+
+            <br>
+            
+            <br>
+            
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel neque sagittis, auctor ligula quis, feugiat metus. Suspendisse blandit lacus eget velit pulvinar, et convallis quam ullamcorper. In tempus rutrum consectetur. Etiam tempus id enim ut iaculis. Nunc hendrerit libero eu urna aliquet cursus. Maecenas et accumsan velit. Nunc dui turpis, ullamcorper sit amet lorem ac, feugiat ullamcorper ligula. Praesent aliquam leo id lectus tempor efficitur. Suspendisse fermentum augue ut odio consectetur, eu convallis odio mattis. Nullam gravida semper finibus. Aliquam diam ligula, luctus a molestie in, placerat in purus. Proin blandit ipsum eu nunc faucibus lacinia. Donec eu luctus orci, id semper magna. Pellentesque ac nibh faucibus est accumsan rhoncus. Nulla tempor quam orci, condimentum blandit mauris consectetur eget. Curabitur dignissim massa urna, aliquet rutrum urna suscipit vitae.</p>
+
+            <br>
+
+            <br>
+        </div>
+ 
+
+
+    <div id="newsbox2">
+
+        <h2><strong>Nincs lehetetlen! Egy kreatív csapat mindent megold!</strong></h2>
+
+        <br>
+
+        <p><em>Egy jó műsor elkészítésének titka egy jól megválasztott csapat. Több éves műsorgyártás, make up, stúdiótechnika...
+</em></p>
+
+        <br>
+        <br>
+
+        <p><img alt="" src="img/creativeteam2.jpg" style="height:514px; margin:8px; width:736px" align="left" class="newsboximage" /></p>
+
+
+
+        <br>
+
+        <br>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel neque sagittis, auctor ligula quis, feugiat metus. Suspendisse blandit lacus eget velit pulvinar, et convallis quam ullamcorper. In tempus rutrum consectetur. Etiam tempus id enim ut iaculis. Nunc hendrerit libero eu urna aliquet cursus. Maecenas et accumsan velit. Nunc dui turpis, ullamcorper sit amet lorem ac, feugiat ullamcorper ligula. Praesent aliquam leo id lectus tempor efficitur. Suspendisse fermentum augue ut odio consectetur, eu convallis odio mattis. Nullam gravida semper finibus. Aliquam diam ligula, luctus a molestie in, placerat in purus. Proin blandit ipsum eu nunc faucibus lacinia. Donec eu luctus orci, id semper magna. Pellentesque ac nibh faucibus est accumsan rhoncus. Nulla tempor quam orci, condimentum blandit mauris consectetur eget. Curabitur dignissim massa urna, aliquet rutrum urna suscipit vitae.</p>
+
+
+        <br>
+
+        <br>
+
+        <p>Donec ante massa, mattis sed ex nec, eleifend elementum dui. Aenean ut sem eu libero facilisis consectetur. Integer finibus nibh nisi, dapibus iaculis nibh tristique sit amet. Donec imperdiet id nisl viverra ullamcorper. Integer vitae purus nibh. Nullam metus ex, elementum a erat at, blandit lobortis lorem. Quisque porta commodo aliquet. Nulla iaculis felis arcu. Mauris faucibus mi justo, et laoreet dolor malesuada in. Morbi nibh eros, ullamcorper non est sit amet, faucibus tempor enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec odio enim, lacinia at sapien non, tempor lacinia neque. Nam pellentesque, purus vel varius porta, diam ligula tempor justo, ac ultrices lorem justo id risus. Duis fermentum tellus sit amet nisi porttitor, ut ornare risus dapibus. Nulla pretium consequat enim, quis pulvinar tellus malesuada non.</p>
+
+
+
+
+
+
     </div>
-    <div class="subtitle">
-        <h2>Legfrissebb híreink</h2>
-        <div></div>
+
+
+    <div id="newsbox3">
+
+        <h2><strong>Moholy-Nagy L&aacute;szl&oacute;</strong></h2>
+
+        <br>
+
+        <p><em>Egy jó műsor elkészítésének titka egy jól megválasztott csapat. Több éves műsorgyártás, make up, stúdiótechnika...
+</em></p>
+
+        <br>
+
+        <br>
+
+<p><img alt="" src="img/creativeteam2.jpg" style="height:514px; margin:8px; width:736px" align="left" class="newsboximage" /></p>
+ 
+
+        <br>
+
+        <br>
+
+
+
+
+        <p><em>Mauris tempus volutpat lectus eu iaculis. In pharetra convallis fringilla. Donec sit amet porta eros. Mauris egestas id ligula ac gravida. Curabitur laoreet ante at aliquet laoreet. Donec vulputate nibh ac augue porttitor, hendrerit luctus quam lacinia. Maecenas malesuada euismod tristique.</em></p>
+
+        <br>
+
+        <br>
+
+
+        <p>Aenean ut porttitor felis. Aliquam nec erat leo. Donec molestie mi sed diam tempus, sed scelerisque orci iaculis. Pellentesque eleifend erat ac luctus pretium. Vivamus nec ligula at lectus laoreet ullamcorper. Fusce gravida sit amet enim non maximus. Sed fringilla nibh eget massa pharetra, quis malesuada sapien finibus. Proin posuere lectus nibh, vel feugiat mauris scelerisque id. Proin facilisis vestibulum libero. Duis molestie laoreet blandit. Pellentesque viverra augue odio, non aliquet mi bibendum sit amet. Ut auctor nec diam id aliquet.</p>
+
+
+
     </div>
-</div>
-<?php include('assets/includes/footer.php'); ?> 
+
+    <hr>
+
+
+
+    <script src="./js/script2.js"></script>
+
+    <footer>
+        <div class="footer-contact">
+            <div id="Kapcsolat">
+                <div class="subtitle">
+                    <h2>Kapcsolat</h2>
+                    <div></div>
+                </div>
+            </div>
+            <form action="post">
+                <div class="footer-wrapper">
+
+                    <div class="footer-contact-info">
+                        <img src="img/logo.jpg" alt="logo">
+                        <div class="footer-contact-info-logo">
+
+                        </div>
+                        <div class="footer-contact-info-sub">
+
+                            <a href="https://goo.gl/maps/ejHaeBc1WAH2"><i class="fas fa-map-marker-alt"></i></a>
+                            <a href="https://goo.gl/maps/ejHaeBc1WAH2">1137 Budapest, <br> Szent István park 25.</a>
+                        </div>
+                        <div class="footer-contact-info-sub">
+                            <a href="mailto:info@olim.hu"><i class="fas fa-envelope"></i></a><a href="mailto:info@olim.hu">info@olim.hu</a>
+                        </div>
+                        <div class="footer-contact-info-sub">
+                            <a href="tel:+3616999124"><i class="fas fa-phone"></i></a><a href="tel:++3616999124">+36-1-699-9124</a>
+                        </div>
+                    </div>
+
+                    <div class="form">
+                        <input type="text" placeholder="Név">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <textarea name="textarea" id="texterea" cols="30" rows="4"></textarea>
+                        <div class="checkbox-container">
+                            <input type="checkbox" name="privacy-statement" id="privacy-statement" value="privacy-statement">
+                            <label for="privacy-statement">
+                                        Megismertem és elfogadom az <a href="#">adatvédalmi nyilatkozatot.</a>
+                                    </label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" name="news" id="news" value="news">
+                            <label for="news">
+                                        Hozzájárulok, hogy számomra az Olim Centrál Zrt. a jövőben hírlevelet küldjön.
+                                    </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-button">
+                    <input type="button" value="Elküld">
+                </div>
+            </form>
+
+        </div>
+        <div class="footer-rights">
+            <div>
+                <a href="#">Adatvédelmi nyilatkozat</a>
+            </div>
+            <div>
+                <p>© Copyright 2018 Olim Central Zrt.</p>
+            </div>
+        </div>
+    </footer>
+</body>
