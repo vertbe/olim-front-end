@@ -9,36 +9,45 @@
     <div class="content-box">
         <div id="vueCounter" class="branches-wrapper">
             <div class="content-box-row">
-                <div class="content-box-img1">
-                    <div class="boxtextupper">
-                        <h3 v-on:click="count">Médiaszolgálat</h3>
-                        <p>Adáslebonyolítás, Makeup, Művészeti terv</p>
+                <a href="mediaszolgalat.html">
+                    <div class="content-box-img1">
+
+                        <div class="boxtextupper">
+                            <h3 v-on:click="count">Médiaszolgálat</h3>
+                            <p>Adáslebonyolítás, Makeup, Művészeti terv</p>
+                        </div>
+
+
+
                     </div>
+                </a>
 
-
-                </div>
-
-                <div class="content-box-img2">
+                <a href="art-rent.html"> <div class="content-box-img2">
                     <div class="boxtextupper">
                         <h3>Art-rent</h3>
                         <p>Díszlet, kellék</p>
                     </div>
                 </div>
+                
+                </a>
             </div>
+            
 
             <div class="content-box-row">
-                <div class="content-box-img3">
+                 <a href="e-rent.html"><div class="content-box-img3">
                     <div class="boxtext">
                         <h3>E-rent Autókölcsönző</h3>
                         <p>Béreljen és parkoljon díjmentesen</p>
                     </div>
                 </div>
-                <div class="content-box-img4">
+                </a>
+                 <a href="brooklynbarber.html"><div class="content-box-img4">
                     <div class="boxtext">
                         <h3>Brooklyn Barber</h3>
                         <p>Fodrászat, szépségszalon</p>
                     </div>
                 </div>
+                </a>
             </div>
             <div class="content-box-counterbox">
                 <div class="counter">
@@ -154,7 +163,7 @@
         <div class="news-row">
             <div class="news-box">
                 <div class="news-img1">
-                     
+
                 </div>
                 <div class="news-content">
                     <div class="news-date">

@@ -12,14 +12,18 @@
             <div class="footer-wrapper">
                
                 <div class="footer-contact-info">
-             <img src="img/logo.jpg" alt="logo">
+             
                     <div class="footer-contact-info-logo">
-                       
+                        <div class="footer-contact-img-wrapper">
+                            <img src="assets/images/logo.png" alt="logo"  align="left">
+                        </div>
                     </div>
-                    <div class="footer-contact-info-sub">
+                    <div class="footer-contact-sub-wrapper">
+                        <div class="footer-contact-info-sub">
+                    
  
                         <a href="https://goo.gl/maps/ejHaeBc1WAH2"><i class="fas fa-map-marker-alt"></i></a>
-                         <a href="https://goo.gl/maps/ejHaeBc1WAH2">1137 Budapest, <br> Szent István park 25.</a>
+                         <a href="https://goo.gl/maps/ejHaeBc1WAH2">1137 Budapest, Szent István park 25.</a>
                     </div>
                     <div class="footer-contact-info-sub">
                         <a href="mailto:info@olim.hu"><i class="fas fa-envelope"></i></a><a href="mailto:info@olim.hu">info@olim.hu</a>
@@ -27,6 +31,8 @@
                     <div class="footer-contact-info-sub">
                         <a href="tel:+3616999124"><i class="fas fa-phone"></i></a><a href="tel:++3616999124">+36-1-699-9124</a>
                     </div>
+                    </div>
+                    
                 </div>
                
                 <div class="form">

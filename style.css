@@ -72,7 +72,7 @@ main {
     align-self: center;
 }
 
- 
+
 
 .mt0 {
     margin-top: 0;
@@ -142,7 +142,7 @@ main {
 
 header {
     height: 95vh;
-    background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("assets/images//dummy-nav-background.jpeg");
+    background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("assets/images/headerimage.jpeg");
     background-size: cover;
     background-position: center;
     border-bottom: 1px solid #333333;
@@ -322,29 +322,49 @@ footer form {
 }
 
 .footer-contact-info {
-    background-color: white;
+    background-color:  #C29032;
     height: 245px;
-    
+    position: relative;
 
 }
 
 .footer-contact-info a {
-    color: #fff;
+    color: black;
     width: auto;
     align-self: center;
-    font-size: .9em;
+    font-size: .8em;
+    
 }
 
 .footer-contact-info-logo {
-    height: 90px
+    width: 170px;
+    margin: auto;
+}
+
+.footer-contact-img-wrapper {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.footer-contact-img-wrapper img {
+    width: 170px;
+    position: absolute;
+    top: -15px;
+}
+
+.footer-contact-sub-wrapper {
+    position: absolute;
+    top: 125px;
 }
 
 .footer-contact-info-sub {
-    margin-left: 40px;
+    margin: 5px auto; 
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: left;
     align-self: center;
+    width: 165px
 }
 
 .footer-contact-info-sub i {
@@ -352,10 +372,10 @@ footer form {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     font-size: 1.8em;
-    color: #fff;
+    color: black;
 }
 
- 
+
 
 .form input,
 .form textarea {
@@ -522,8 +542,7 @@ input[type=checkbox]:checked + label:before {
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(img/mediaszolgalat.jpg);
-
+     background-image: url(assets/images/mediaszolgalat.jpg);
 
 
 }
@@ -539,7 +558,7 @@ input[type=checkbox]:checked + label:before {
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(img/artrent.jpeg);
+    background-image: url(assets/images/artrent.jpeg);
 
 
 }
@@ -557,7 +576,7 @@ input[type=checkbox]:checked + label:before {
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(img/carrent.jpeg);
+    background-image: url(assets/images/carrent.jpeg);
     background-position: top;
 
 }
@@ -574,7 +593,7 @@ input[type=checkbox]:checked + label:before {
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(img/brooklynbarber.jpeg);
+    background-image: url(assets/images/brooklynbarber.jpeg);
     background-position: top;
 
 
@@ -605,9 +624,8 @@ input[type=checkbox]:checked + label:before {
 }
 
 .content-box-counterbox {
-    border: 1px solid #333333;
+    border: 2px solid darkgoldenrod;
     background-color: black;
-    opacity: 0.6;
     width: auto;
     margin: auto;
     height: auto;
@@ -798,14 +816,14 @@ input[type=checkbox]:checked + label:before {
 .news-img1 {
     border: 1px solid #333333;
     width: 50%;
-    background-image: url(img/environment.jpg);
+    background-image: url(assets/images/environment.jpg);
     background-position: left;
 }
 
 .news-img2 {
     border: 1px solid #333333;
     width: 50%;
-    background-image: url(img/creativeteam.jpg);
+    background-image: url(assets/images/creativeteam.jpg);
     background-position: center;
     background-size: 520px 260px;
     background-repeat: no-repeat;
@@ -942,26 +960,25 @@ input[type=checkbox]:checked + label:before {
 
 #newsbox1 {
     padding: 50px;
-    
+
 }
 
 
-#newsbox2   {
+#newsbox2 {
     padding: 50px;
 }
 
-#newsbox3    {
+#newsbox3 {
     padding: 50px;
     margin-bottom: 300px;
 }
- 
 
-.newsboxtext1   {
+
+.newsboxtext1 {
     margin-left: 25px;
 }
 
-.newsboximage  {
+.newsboximage {
     float: left;
-   padding: 25px;
+    padding: 25px;
 }
- 
