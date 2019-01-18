@@ -8,32 +8,23 @@
     </div>
     <div class="content-box">
         <div id="vueCounter" class="branches-wrapper">
-<<<<<<< HEAD
             <div class="content-box-row">
                 <a href="mediaszolgalat.html">
                     <div class="content-box-img1">
-
                         <div class="boxtextupper">
                             <h3 v-on:click="count">Médiaszolgálat</h3>
                             <p>Adáslebonyolítás, Makeup, Művészeti terv</p>
                         </div>
-
-
-
                     </div>
                 </a>
-
                 <a href="art-rent.html"> <div class="content-box-img2">
                     <div class="boxtextupper">
                         <h3>Art-rent</h3>
                         <p>Díszlet, kellék</p>
                     </div>
                 </div>
-                
                 </a>
             </div>
-            
-
             <div class="content-box-row">
                  <a href="e-rent.html"><div class="content-box-img3">
                     <div class="boxtext">
@@ -50,8 +41,6 @@
                 </div>
                 </a>
             </div>
-=======
->>>>>>> reszponzivitás vol1, mobil menü
             <div class="content-box-counterbox">
                 <div class="counter">
                     <i class="fas fa-bolt coutner-icon-out"></i>
@@ -82,29 +71,7 @@
                     </div>
                 </div>
             </div>
-            <div class="content-box-row">
-                <div class="content-box-img">
-                    <h3 v-on:click="count">Médiaszolgálat</h3>
-                    <p>Adáslebonyolítás, Makeup, Művészeti terv</p>   
-                </div>
-
-                <div class="content-box-img">
-                    <h3>Art-rent</h3>
-                    <p>Díszlet, kellék</p>
-                </div>
-            </div>
-            <div class="content-box-row">
-                <div class="content-box-img down">
-                    <h3>E-rent Autókölcsönző</h3>
-                    <p>Béreljen és parkoljon díjmentesen</p>
-                </div>
-                <div class="content-box-img down">
-                    <h3>Brooklyn Barber</h3>
-                    <p></p>
-                </div>
-            </div>
         </div>
-
     </div>
     <div id="Rólunk">
         <div class="subtitle">
