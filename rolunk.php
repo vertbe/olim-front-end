@@ -1,7 +1,7 @@
-<?php $page_title = "Rólunk"; include('assets/includes/header.php'); ?>
-<d
+<?php $page_title = "Rólunk"; ?>
 
 <!DOCTYPE html>
+
 <html lang="hu-hu" dir="ltr"
 	  class='com_content view-article j39 mm-hover '>
 

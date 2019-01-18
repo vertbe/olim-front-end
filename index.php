@@ -1,4 +1,4 @@
-<?php $page_title = "Rólunk"; include('assets/includes/header.php'); ?>
+<?php $page_title = "Kezdőlap"; include('assets/includes/header.php'); ?>
 <div class="container">
     <div id="Üzletágaink">
         <div class="subtitle">
